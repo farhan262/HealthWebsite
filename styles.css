@@ -1,0 +1,13 @@
+.heading {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.section {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+a:hover {
+  background-color: green;
+}

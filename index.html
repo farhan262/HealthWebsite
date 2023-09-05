@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Natural Nutrition & Supplement Backed By Science</title>
+  </head>
+  <body style="background-color: aquamarine;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Shop now</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Health Experts</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Naked Way
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Naked Philosophy</a></li>
+                <li><a class="dropdown-item" href="#">Naked Research</a></li>
+                <!-- <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li> -->
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Nack Journals
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Community</a></li>
+                <li><a class="dropdown-item" href="#">Mental WellBeing</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Recipes</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Health & Fitness</a>
+                </li>
+              </ul>
+            </li>
+
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <h3>Nack</h3>
+            &nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button style="color: aliceblue;"> <img src="
+            data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIEAgQMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYCAwQBB//EADQQAAICAQEGAggGAgMAAAAAAAABAgMEEQUSITFBUTJxBhMiUmGRwdEUQoGhsfAz4RUjU//EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwD7iAAAAAAAAAYStri9JWRT7N6AZgwjdVJ6Rsg32UkZgAAAAAAAAAAAAAAA5doZ1WDT6yzi34Y9ZMDdddXRW7LZxhBc2yDzPSF8Y4lfD35/YiMzMuzLfWXS108MVyj5GgDffm5V+vrr5yT6a6L5HOegDzRdjdTlX0f4bpw06KXD5GoATWH6QWwajlVqyPvR4P5dSexcqnKr36JqS6915lHNmPfbjWqymbjJduvmBegcGy9pV51bWm5bHxQ+qO8AAAAAAAADXfbCimdtj0hFaspmblWZmRK6zk+EY+6uxL+k2VxrxYvh45/RECAAAAHVg4NuZP2PZgvFN8l9yap2NiVxSnGVj6uUn9AK2Cy2bIw5xaVbg+8JP6kPtDZtuH7ae/V72nLzA4gABsx7rMe6FtUtJxfAuWDlQy8aFsOGvNdn2KSS3o5lOrLdEn7FvL4SX9/gC0AAAAAABhdJxqnJc1FsCl5934jNut11UpvTy5I0Hh6AMqoStsjXDxSaS/UxOrZWn/I0a8t4CzY9MMemNVa9mK08zYAAPJwjZBwmlKMlo0+p6eKSba05AVLMoeNlWUv8r4P4dDSSO3tPx7057i1I4Ae1zddkbIvRxaa/Q8AF8rmrK4zjykk0ZHJsmTls3Gb/APNL5HWAAAAwvi5U2RXNxa/YzDAoC5HpuzKvUZd1XuTaXl0NIHhlXN12Qsj4oyUl+h4ALZjWLIojbXJNS/Z9jbutlXwc63CnrDSUH4oPr9ibp2ziTS35Srl2lFv+AO5xb49TCelcJSnJKMVq2ctu18OCe7Y5vtGL+pD7Q2lbmez4KtfCuvmBz5dzyMmy1/mfDy6GlHoAAHsYuclGK1cnokBcdkRcdmYyfuJnYYUwVVMK48oRUV+hmAAAAAAVv0mxdy+GTFezNbsvNf6/ghS8ZePDKx502eGS+T7lLyaJ410qbVpKP7/EDWSez9kzyErMjWFfNLrL7HuxcBXy/EXR/wCuL0in+Z/YsAGmnEx6YOFdUFF89Vrr56nPbsnDsbfq3Fv3ZNHcAOCGx8OL1cJS+EpPQ6pY1EqvVypg4dFu8jaAIPP2M4J2YmskuLrfNeXch2tHxLoQ228BbryqVxX+SK6/ECEJP0fxfX5ysktYVe0/Pp/fgRsISsnGFacpyeiS6ly2ZhrCxY185vjN92B1gAAAAAAAHDtTZsM+tcVC2Phn9GdwA46qY49cKorSMFojI6ZRUlxRplU1y4oDAAAAAuPIAHHe1jprqtNDONbfPgjbGCjyAj9m7JrwrJ2t79jb3X7qJIAAAAAAAAAAAAAAA8aTPNyPYyAGO5HsepJcj0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//2Q=="
+            " height="40px" />
+          </button> &nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button><img
+              src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAAB9CAMAAAC4XpwXAAAAZlBMVEX///8AAAB6enqgoKBqampVVVW1tbWampp9fX2RkZGNjY319fXl5eXHx8fv7+9LS0vU1NTAwMDf39/Nzc2GhoZFRUWpqalzc3MrKyuvr68wMDAgICA9PT1kZGQ1NTVaWloZGRkQEBDZC9fpAAAEjUlEQVRoge1b6ZqiOhAVFUEBWVTafXn/lxxNFQxLJSRSIXO/2+dnh+Yk5NSSSjmb/eJ/imznjnt79jxvHTti//EElm4+gFchzaPp2e81vXcNtlOzr7wm5sXE9Hna4k/zifmznxb/YWoDiPfnJv/k8tuuGvL7mZr9jdyv6SfX/gfxBtlXLtjfuAn2vSP2UrDfHLHvBPvFycbPZtFT0E/t8iqA4Z8csc+dWfwHEHVSR+yZYD86kt0WNn6/sItSouu//tYuzmQut5+Infbnq+F/Y8KLSCSKydi9QCq7KXAlPv1SjKTh3CIwl5PKbklbBBMwmBEjuXRefFhLV7gFdqupJezughq6iKHEInl0kFPAxAhzYEMsGCh7V20KFxLBcCTHcsUYD2B9D3IMZWcxyD5Uewvs9o6T0VWla1VSvysDA9DHEshgLpLT6kIuu7WhKz9QbgOEdaDJUZJ3YuPNA+CaeP9Gvro34pcYJpKfxJid4oB6BenpPjiKYUJ2mTE7pR44sWQy9qX0H03zrgux77CEl9Si4SzpU0NJaALSpCF386VhDMIvJTsOwPebS8fji3pnxgFqNKX8gVQmOw54Q0sD2YVWyNFnKLKXk3iAyjnHAyStOqeCUTytZFd7qTlX2FqUHWhKWZ94DD/yJSLYdmVtJrQmO3TWymdAdlS6PyuCjSbI9KHUEHQhnaFJoKGkNR8UXb07hOyMqgv93Y3g/wdqsfAQEYMvJux9kli6rCYghSJCwWPc2jGnU5NjGCTEYZJcEQEWckZZTlcBvxARZONyrYeA+ryQL1PZXgta+2MOOD8ORk94TJr6fYlCswoNsuMu2EJSfB0MX5jyM4e5QLx1+PYBtc18OffQE13lVpjvprXrIqnMZEcAT0kaHxS2iD7ifwus/muIKdHySmbQNyQwzddtyYiz9m5iWcsCtJR8s8Wu5UMCS+R63ntnh1zTimIb3BcNPycQgb+Zl4xXUYm+54Yavu5kuQFZkJ2z5DB0jh32gEm9qxYw8HauujDgLLlxxD5cZrAJt7LDpN5ng1kP25Hd05rQ84c5k8smbIBhhJGEsxczu1mOXNxY+ZemZ6MiX7HBYePwL/7LKIIw3JdDMT/KN2G44W6OLquOlFQV9eO6QzdkTE2KZqnwIL00avlntspP93ghWVe7NVlx+WSEXp2Q7oPrXRiy5EZR2n0teRDP++6Vo+h3wnc916e94r1VR7RfLqpyNkdqdmiqCPJNovSFS78KTRRHrsVnbQnPJTvf/ju2cIzvTcaideU/ZJelz9YcsVAzvjc56JgPbGqv3AuLrW0RjHR8xXPTsR6oOvY8HrDXbLBf42+zu60gkovijsxAhDoFOjXgPc/qm+4kar62N+jWmfO3wMo6CggbdvqlbmyJyZtT5vD1eB3kf1af3WWmVF3XLd7ziqpww9DEUMeYu18fcYg4U99Z+bVnZrliCL0uqO4FLEM3wZNjdEun9Jp6YYapS7FTuZUpud2N/OLr3mjE7pdcyEXjlz8p551agfxP9a/ZVhhcffa2le0u2WnoqEgSV7/9+MU/jj8xBDozvbQsfgAAAABJRU5ErkJggg=="
+              height="40px"
+            />
+          </button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="//nack.life/cdn/shop/files/desktopbanner_1500x.jpg?v=1692342864" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Rapid Recover. Effective Hydration</h5>
+            <p>Boost performance and hydration with a unique blend of full-spectrum Essential Amino Acids and electrolytes</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="//nack.life/cdn/shop/files/Carousel_Web_Banner_img-01_1500x.jpg?v=1684483241" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Stronger Than The Summer Sun!</h5>
+            <p>Protect your skin from the harmful UV rays this summer</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="//nack.life/cdn/shop/files/Yoga_Day_Journal_Desktop_1500x.jpg?v=1689658304" class="s-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Beyond the Yoga Mat</h5>
+            <p>Yoga practitioners and trainers share the benefits of Yoga on and off the mat</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div >
+      <h6 class="heading">HONEST. CLEAN. NATURAL.</h6>
+      <h2 class="section">Choose Your Favourite</h2>
+    </div>
+
+    <div class="card-group">
+      <div class="card">
+        <img src="//nack.life/cdn/shop/files/choose_your_fav.jpg?v=1682330570" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">WHEY PROTEIN</h5>
+        </div>
+      </div>
+      <div class="card">
+        <img src="//nack.life/cdn/shop/files/vegan-plant-protein-powder-nack-india-min_750x_1000x_9fe870d1-dcb5-439f-a696-2219a36f7fca.webp?v=1656932664" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PLANT PROTEIN</h5>
+          </div>
+      </div>
+      <div class="card">
+        <img src="//nack.life/cdn/shop/files/nack-astaxanthin-antioxidant-immunity-boost-1-min.jpg?v=1656933817" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">IMMUNITY BOOST</h5>
+        </div>
+      </div>
+    </div>
+
+<br/>
+
+    <div class="card md-12" style="max-width: 2040px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://cdn.shopify.com/s/files/1/0611/8123/1340/files/Home_Page_Image-2.jpg?v=1682403841"  class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8 " >
+          <div class="card-body"  >
+            <h5 class="card-title" style="display: flex;">Whey Protein</h5>
+            <h2 style="display: flex;">Developed by Sports Nutrition Experts </h2>
+            <p class="card-text">Näck’s Whey Protein is expertly formulated to fuel your workouts, boost muscle growth, enhance recovery and support weight management.
+            </p>
+            <button style="background-color: yellowgreen;">Read More</button>
+            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+<br/>
+    <div class="card mb-3" style="max-width: 2000px;">
+      <div class="row g-0">
+        
+        <div class="col-md-8 bg-info">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Card title</h5> -->
+            <h5>Plant Protein Powder</h5>
+<h2>Perfectly Balanced Amino Acids</h2>
+            <p class="card-text">Our 100% plant based powder is formulated to fuel your body with pure protein. By blending naturally sourced yellow peas with whole grain rice, this formula provides a complete essential amino acid profile.</p>
+            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+          </div>
+          <button style="background-color: yellowgreen;">Read More</button>
+          
+        </div>
+        <div class="col-md-4">
+          <img src="https://cdn.shopify.com/s/files/1/0611/8123/1340/files/Nack_campaign_20220751.jpg?v=1657707413" class="img-fluid rounded-start" alt="...">
+        </div>
+      </div>
+    </div>
+
+
+    <br/>
+
+    <div class="card md-12" style="max-width: 2040px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://cdn.shopify.com/s/files/1/0614/9472/2786/files/nack-astaxanthin-image-e1629383887781-min_0b91c8a7-af4f-4d11-a873-ac7d6da3cc36.jpg?v=1643433835"  class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8 " >
+          <div class="card-body"  >
+            <h5 class="card-title" >IMMUNITY BOOST</h5>
+            <h2>Nature's Strongest Antioxidant </h2>
+            <p class="card-text">Boost your immune system with nature’s most powerful antioxidant, Astaxanthin. Its unique and strong cellular protection capacity allows it to protect each cell against free radicals and oxidative stress.
+
+            </p>
+            <button style="background-color: yellowgreen;">Read More</button>
+            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <br/>
+    <div class="card mb-3" style="max-width: 2000px;">
+      <div class="row g-0">
+        
+        <div class="col-md-8 bg-info">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Card title</h5> -->
+            <h5>HEALTH COACHES</h5>
+<h2>Meet Our Experts</h2>
+            <p class="card-text">Searching for an expert within nutrition, fitness or mental health? Look no further. Our best in class experts are just one click away and ready to support you from the comfort of your home.</p>
+            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+          </div>
+          <button style="background-color: yellowgreen;">Read More</button>
+          
+        </div>
+        <div class="col-md-4">
+          <img src="https://cdn.shopify.com/s/files/1/0614/9472/2786/files/meet-our-health-experts-at-nack-india-min_1.jpg?v=1643433860" class="img-fluid rounded-start" alt="...">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5 col-sm-6 col-12 yCenter leftColumn btext pb0">
+          <div><h2>The Pursuit Of Truly Naked</h2>
+</div></div>
+<div >
+  <div><p>No odd ingredient combinations. No questionable scientific reports. No false claims or hidden agendas. Just carefully selected natural active ingredients, always backed by science. Born in Sweden and raised in India, our journey started in 2020 with the purpose to make the complex world of supplements easy to understand, access and benefit from.
+</p>
+<h6><a href="https://shop.nack.life/pages/naked-philosophy" class="readMore" style="color: black;">Learn more about our pursuit</a></h6>
+</div></div></div>
+
+<br/>
+<div >
+  
+  <h2 class="section">The Näck Journal</h2>
+</div>
+
+<div class="card-group">
+  <div class="card">
+    <img src="//nack.life/cdn/shop/articles/desktopcover_533x.jpg?v=1690803407" class="card-img-top" alt="...">
+    <div class="card-body">
+      <a href="#" style="color: black;">ATHLETES</a>
+      &nbsp;
+      <a href="#" style="color: black;">COMMUNITY</a>&nbsp;
+      <a href="#" style="color: black;">RUNNING</a>
+      <h5 class="card-title">The starting line: Running tips for beginners
+      </h5>
+      <p>Running is more than just putting one foot in front of the other; it's a journey of self-discovery, endurance, and empowerment. From the brisk morning jogs of beginners to the...
+      </p>
+      <a href="" style="color: brown;" >READ MORE</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="//nack.life/cdn/shop/articles/yoga_day_journal-desktop_533x.jpg?v=1687346234" class="card-img-top" alt="...">
+    <div class="card-body">
+      
+      <a href="#" style="color: black;">COMMUNITY</a> &nbsp;
+      <a href="#" style="color: black;">INTERNATIONALYOGADAY</a>
+      <a href="#" style="color: black;">MINDFULLNESS</a>
+      <a href="#" style="color: black;">YOGA</a>
+      <h5 class="card-title">Beyond The Yoga Mat</h5>
+      <p>Content warning: The following article mentions mental illness and eating disorders. We associate Yoga with physical postures, breathing exercises, and meditation - all things practised on a mat. However, the...
+      </p>
+      <a href="" style="color: brown;" >READ MORE</a>
+      </div>
+  </div>
+  <div class="card">
+    <img src="//nack.life/cdn/shop/articles/Passion-for-Progress-Desktop_533x.jpg?v=1685529026" class="card-img-top" alt="...">
+    <div class="card-body">
+      
+      <a href="#" style="color: black;">COMMUNITY</a>&nbsp;
+      <a href="#" style="color: black;">FITNESS</a>&nbsp;
+      <a href="#" style="color: black;">FITNESSINSPIRATION</a>&nbsp;
+      <a href="#" style="color: black;">TRAINERS</a>
+      <h5 class="card-title"> Passion for Progress: Practices Fitness Trainers Swear By</h5>
+      
+      <p>How many of us, at some point in our lives, believed that success and greatness belong to the few gifted ones? That there are prerequisites to greatness some people are just born with. When you listen to the great ones though, you realise they were once ordinary.
+
+      </p>
+      <a href="" style="color: brown;" >READ MORE</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+    <footer class="footer_style " style="background-color: black;">
+      <main class="container-fluid">
+        <div class="row p-3">
+          <div class="col-md-4 col-12 offset-md-1">
+            <h3 style="color: white;">Nack</h3>
+            <a href="#" style=" color:white">
+              <img
+                src="data:image/png;base64,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"
+                height="30px"
+              />
+              <img
+                src="data:image/png;base64,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"
+                height="30px"
+              />
+              <img
+                src="data:image/png;base64,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"
+                height="30px"
+              />
+              <img
+                src="data:image/png;base64,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"
+                height="30px"
+              />
+            </a>
+          </div>
+
+          <div class="col-md-2 col-12">
+            <ul>
+              <a href="#" style=" color:white">Help</a>
+              &nbsp;
+              <a href="#" style=" color:white">Contact</a>
+              &nbsp;
+              <a href="#" style=" color:white">Privacy Policy</a>
+              &nbsp;
+              <a href="#" style=" color:white">Terms</a
+              >&nbsp;
+              <a href="#" style=" color:white">Shipping</a
+              >&nbsp;
+              <a href="#" style=" color:white">Nack Active</a
+              >&nbsp;
+              <a href="#" style=" color:white">Nack Beauty</a
+              >&nbsp;
+              <a href="#" style=" color:white"> Health</a
+              >&nbsp;
+              <a href="#" style=" color:white">Terms of Service</a
+              >&nbsp;
+              <a href="#" style=" color:white">Refund</a>
+            </ul>
+          </div> 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <div class="col-md-2 col-12 flex:space-between">
+            <h3 style="color: white;">Stay in Touch</h3>
+            <form action="">
+              <input type="text" placeholder="Enter Email" class="w-100" />
+              &nbsp;
+              <input type="submit" value="Join Now" class="bg-success w-100" ></input>
+            </form>
+          </div>
+        </div>
+<hr/>
+        <div
+          class="d-flex flex-row justify-content-center align-items-center flex-wrap"
+        >
+              <div class="p-md-5 p-2 flex-center"></div>
+          <h3>@2023 Nack RIGHTS RESERVED</h3>
+        </div>
+      </main>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
